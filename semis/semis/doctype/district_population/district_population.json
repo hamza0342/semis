@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-22 16:49:47.399227",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "year",
+  "boys",
+  "girls",
+  "total_population",
+  "overall_papulation"
+ ],
+ "fields": [
+  {
+   "fieldname": "year",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Year",
+   "options": "\n2018-19\n2019-20\n2020-21\n2021-22"
+  },
+  {
+   "fieldname": "boys",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Boys"
+  },
+  {
+   "fieldname": "girls",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Girls"
+  },
+  {
+   "fieldname": "total_population",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Total Population(age group 5 to 9 Years )"
+  },
+  {
+   "fieldname": "overall_papulation",
+   "fieldtype": "Int",
+   "label": "Overall Papulation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-05-10 13:06:42.276350",
+ "modified_by": "Administrator",
+ "module": "SEMIS",
+ "name": "District Population",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

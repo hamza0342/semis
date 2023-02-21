@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-29 16:54:42.348951",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "year",
+  "smc_eligibility"
+ ],
+ "fields": [
+  {
+   "fieldname": "year",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Year",
+   "options": "Year"
+  },
+  {
+   "fieldname": "smc_eligibility",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "SMC Eligibility",
+   "options": "\nYes\nNo"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-09-28 14:35:09.277649",
+ "modified_by": "Administrator",
+ "module": "SEMIS",
+ "name": "SMC History Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

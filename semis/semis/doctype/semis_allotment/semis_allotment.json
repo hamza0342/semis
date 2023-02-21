@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{semis_code}",
+ "creation": "2022-02-10 17:09:00.095656",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "school",
+  "school_name",
+  "tid",
+  "semis_code",
+  "allotment_date",
+  "semis_attachment",
+  "semis_smalltext",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "columns": 5,
+   "fieldname": "school",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "School",
+   "options": "School",
+   "reqd": 1
+  },
+  {
+   "columns": 7,
+   "fetch_from": "school.school_name",
+   "fieldname": "school_name",
+   "fieldtype": "Read Only",
+   "label": "School Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "SEMIS Allotment",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "allotment_date",
+   "fieldtype": "Date",
+   "label": "Allotment Date",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fieldname": "semis_attachment",
+   "fieldtype": "Attach",
+   "label": "Attach Notification",
+   "reqd": 1
+  },
+  {
+   "columns": 12,
+   "fieldname": "semis_smalltext",
+   "fieldtype": "Small Text",
+   "label": "Comments"
+  },
+  {
+   "columns": 4,
+   "fieldname": "semis_code",
+   "fieldtype": "Data",
+   "label": "SEMIS Code",
+   "reqd": 1
+  },
+  {
+   "columns": 4,
+   "fetch_from": "school.tid",
+   "fieldname": "tid",
+   "fieldtype": "Data",
+   "label": "TID",
+   "read_only": 1
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "is_custom_form": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-09-27 12:23:22.191802",
+ "modified_by": "Administrator",
+ "module": "SEMIS",
+ "name": "SEMIS Allotment",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

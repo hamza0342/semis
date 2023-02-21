@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{semis_id}-{##}",
+ "creation": "2022-08-12 15:06:30.629355",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "semis_id",
+  "adp_no",
+  "adp_description",
+  "adp_progress",
+  "adp_package",
+  "adp_data_source"
+ ],
+ "fields": [
+  {
+   "fieldname": "semis_id",
+   "fieldtype": "Data",
+   "label": "SEMIS_ID"
+  },
+  {
+   "fieldname": "adp_no",
+   "fieldtype": "Data",
+   "label": "ADP_NO"
+  },
+  {
+   "fieldname": "adp_description",
+   "fieldtype": "Text",
+   "label": "ADP_DESCRIPTION"
+  },
+  {
+   "fieldname": "adp_progress",
+   "fieldtype": "Text",
+   "label": "ADP_PROGRESS"
+  },
+  {
+   "fieldname": "adp_package",
+   "fieldtype": "Text",
+   "label": "ADP_PACKAGE"
+  },
+  {
+   "fieldname": "adp_data_source",
+   "fieldtype": "Text",
+   "label": "ADP_DATA_SOURCE"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-08-12 16:00:50.337812",
+ "modified_by": "Administrator",
+ "module": "SEMIS",
+ "name": "ADP Scheme",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

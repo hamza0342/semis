@@ -1,0 +1,152 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:district_name",
+ "creation": "2021-11-10 11:05:39.165321",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "district_name",
+  "district_code",
+  "code",
+  "district",
+  "division",
+  "district_abr",
+  "projected_population",
+  "path_features",
+  "section_break_9",
+  "area_of_district",
+  "maximum_flood_water_extent",
+  "total_population_in_district",
+  "population_potentially_exposed",
+  "population_exposed",
+  "section_break_15",
+  "type",
+  "coordinates"
+ ],
+ "fields": [
+  {
+   "fieldname": "district_name",
+   "fieldtype": "Data",
+   "label": "Title",
+   "unique": 1
+  },
+  {
+   "fieldname": "district_code",
+   "fieldtype": "Data",
+   "label": "Code",
+   "unique": 1
+  },
+  {
+   "fieldname": "division",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Division",
+   "options": "Division"
+  },
+  {
+   "fieldname": "district_abr",
+   "fieldtype": "Data",
+   "label": "District Abbreviation",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "projected_population",
+   "fieldtype": "Table",
+   "label": "District Population",
+   "options": "District Population",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "path_features",
+   "fieldtype": "Text",
+   "label": "Path Features",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "section_break_9",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "area_of_district",
+   "fieldtype": "Float",
+   "label": "Area of District",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "maximum_flood_water_extent",
+   "fieldtype": "Float",
+   "label": "Maximum Flood Water Extent",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "total_population_in_district",
+   "fieldtype": "Float",
+   "label": "Total Population in District",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "population_potentially_exposed",
+   "fieldtype": "Float",
+   "label": "Population Potentially Exposed",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "population_exposed",
+   "fieldtype": "Float",
+   "label": "Population Potentially Exposed (%)",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "section_break_15",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Polygon",
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "coordinates",
+   "fieldtype": "Text",
+   "label": "Coordinates",
+   "permlevel": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-09-09 11:17:56.560846",
+ "modified_by": "Administrator",
+ "module": "SEMIS",
+ "name": "District",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

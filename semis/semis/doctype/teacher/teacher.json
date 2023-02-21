@@ -1,0 +1,167 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:per_number",
+ "creation": "2022-03-11 12:05:25.209823",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "per_number",
+  "cnic",
+  "gender",
+  "designation",
+  "date_of_birth",
+  "contact_no",
+  "subject_specialization_code",
+  "bps_appointment",
+  "bps_current",
+  "bs_per_time_scale",
+  "heighest_academic_qualification",
+  "is_bio",
+  "entry_date",
+  "professional_qualification_training_code",
+  "on_detailment"
+ ],
+ "fields": [
+  {
+   "columns": 3,
+   "fieldname": "cnic",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CNIC",
+   "reqd": 1
+  },
+  {
+   "columns": 6,
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "columns": 3,
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Gender",
+   "options": "Gender",
+   "reqd": 1
+  },
+  {
+   "columns": 3,
+   "fieldname": "bps_appointment",
+   "fieldtype": "Int",
+   "label": "BPS (at the time of appointment)"
+  },
+  {
+   "columns": 3,
+   "fieldname": "heighest_academic_qualification",
+   "fieldtype": "Data",
+   "label": "Heighest Academic Qualification"
+  },
+  {
+   "columns": 3,
+   "fieldname": "is_bio",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Is Biometrically registered?",
+   "options": "\nYes\nNo"
+  },
+  {
+   "columns": 3,
+   "fieldname": "contact_no",
+   "fieldtype": "Data",
+   "label": "Contact no"
+  },
+  {
+   "columns": 3,
+   "fieldname": "per_number",
+   "fieldtype": "Data",
+   "in_standard_filter": 1,
+   "label": "Personal Number from AG office",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "columns": 3,
+   "fieldname": "designation",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Designation",
+   "options": "Designation"
+  },
+  {
+   "columns": 3,
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date Of Birth"
+  },
+  {
+   "columns": 3,
+   "fieldname": "bps_current",
+   "fieldtype": "Int",
+   "label": "BPS(Current Actual Scale)"
+  },
+  {
+   "columns": 3,
+   "fieldname": "bs_per_time_scale",
+   "fieldtype": "Int",
+   "label": "\tBS(As per Time Scale) "
+  },
+  {
+   "columns": 3,
+   "fieldname": "entry_date",
+   "fieldtype": "Date",
+   "label": "Date of Entry in this Government Service"
+  },
+  {
+   "columns": 3,
+   "fieldname": "professional_qualification_training_code",
+   "fieldtype": "Data",
+   "label": "Professional Qualification Training Code"
+  },
+  {
+   "columns": 3,
+   "fieldname": "subject_specialization_code",
+   "fieldtype": "Data",
+   "label": "Subject Specialization Code"
+  },
+  {
+   "columns": 3,
+   "fieldname": "on_detailment",
+   "fieldtype": "Data",
+   "label": "On Detailment"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_custom_form": 1,
+ "links": [],
+ "modified": "2022-08-22 17:31:40.095421",
+ "modified_by": "Administrator",
+ "module": "SEMIS",
+ "name": "Teacher",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "cnic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

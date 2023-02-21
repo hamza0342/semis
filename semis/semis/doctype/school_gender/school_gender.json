@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:school_gender",
+ "creation": "2022-01-12 12:23:11.020012",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "school_gender",
+  "list_order"
+ ],
+ "fields": [
+  {
+   "fieldname": "school_gender",
+   "fieldtype": "Data",
+   "label": "Gender",
+   "unique": 1
+  },
+  {
+   "fieldname": "list_order",
+   "fieldtype": "Int",
+   "label": "List Order"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-03-15 01:00:29.642816",
+ "modified_by": "Administrator",
+ "module": "SEMIS",
+ "name": "School Gender",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

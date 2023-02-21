@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "allow_rename": 1,
+ "creation": "2022-08-10 11:02:09.455804",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "year",
+  "division",
+  "district",
+  "taluka",
+  "reference_doctype",
+  "filters_section",
+  "filter_list",
+  "column_break_11",
+  "get_schools",
+  "section_break_13",
+  "schools_table",
+  "update_status"
+ ],
+ "fields": [
+  {
+   "columns": 3,
+   "fieldname": "year",
+   "fieldtype": "Link",
+   "label": "Year",
+   "options": "Year"
+  },
+  {
+   "columns": 3,
+   "fieldname": "district",
+   "fieldtype": "Link",
+   "label": "District",
+   "options": "District"
+  },
+  {
+   "columns": 3,
+   "fieldname": "division",
+   "fieldtype": "Link",
+   "label": "Division",
+   "options": "Division"
+  },
+  {
+   "columns": 3,
+   "fieldname": "taluka",
+   "fieldtype": "Link",
+   "label": "Taluka",
+   "options": "Taluka"
+  },
+  {
+   "fieldname": "reference_doctype",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Reference DocType",
+   "options": "DocType",
+   "read_only": 1
+  },
+  {
+   "fieldname": "filters_section",
+   "fieldtype": "Section Break",
+   "label": "Filters"
+  },
+  {
+   "columns": 6,
+   "fieldname": "filter_list",
+   "fieldtype": "HTML",
+   "label": "Filter List"
+  },
+  {
+   "fieldname": "get_schools",
+   "fieldtype": "Button",
+   "label": "Update Schools"
+  },
+  {
+   "fieldname": "schools_table",
+   "fieldtype": "Table",
+   "options": "Live DB Update Table"
+  },
+  {
+   "fieldname": "update_status",
+   "fieldtype": "Button",
+   "label": "Update Status"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Heading"
+  },
+  {
+   "fieldname": "section_break_13",
+   "fieldtype": "Section Break",
+   "hidden": 1
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "is_custom_form": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-09-20 10:27:04.476220",
+ "modified_by": "Administrator",
+ "module": "SEMIS",
+ "name": "Live DB Update Tool",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
